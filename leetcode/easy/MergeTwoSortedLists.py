@@ -15,7 +15,7 @@ class Solution:
                 list1 = list1.next
             else:
                 current.next = list2
-                list2 = list2.
+                list2 = list2.next
 
             current = current.next
 
