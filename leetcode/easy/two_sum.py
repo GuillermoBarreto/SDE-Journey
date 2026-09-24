@@ -7,6 +7,11 @@
 
 class Solution:
     def twoSum(self, nums, target):
+        """Return the indices of the two numbers that add up to target.
+
+        Runs in O(n) time using a hash map. Raises ValueError when no
+        such pair exists instead of silently returning None.
+        """
         seen = {}
 
         for i, num in enumerate(nums):
@@ -16,3 +21,5 @@ class Solution:
                 return [seen[needed], i]
 
             seen[num] = i
+
+        raise ValueError("No two numbers add up to the target")
