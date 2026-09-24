@@ -21,6 +21,9 @@
 
 class Solution:
     def removeDuplicates(self, nums):
+        if not nums:
+            return 0
+
         write = 1
 
         for read in range(1, len(nums)):
