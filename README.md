@@ -1,6 +1,12 @@
 # SDE-Journey
-My journey from IT Support at Amazon to Software Development Engineer — LeetCode solutions, projects, WGU coursework, and system design notes.
 
-adding some problems to github
+My path from IT Support at Amazon to Software Development Engineer.
 
-Returning after a break
+What I track here:
+
+- LeetCode practice and solutions
+- Side projects and what I learned building them
+- WGU Software Engineering coursework notes
+- System design notes
+
+Currently: WGU Software Engineering student, shipping code every night and documenting the climb in public.
