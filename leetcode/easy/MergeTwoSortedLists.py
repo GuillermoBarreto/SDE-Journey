@@ -6,6 +6,12 @@ class ListNode:
 
 class Solution:
     def mergeTwoLists(self, list1, list2):
+        """Merge two sorted singly-linked lists into one sorted list.
+
+        Splices the existing nodes instead of allocating new ones.
+
+        Time: O(n + m) where n, m are the list lengths. Space: O(1).
+        """
         dummy = ListNode()
         current = dummy
 
