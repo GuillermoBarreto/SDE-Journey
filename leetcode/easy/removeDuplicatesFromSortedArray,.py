@@ -21,6 +21,13 @@
 
 class Solution:
     def removeDuplicates(self, nums):
+        """Remove duplicates from a sorted list in-place.
+
+        Uses a two-pointer (read/write) scan; each unique element is
+        written once to the front of the list. Returns k, the number of
+        unique elements, so the first k entries of nums hold the result.
+        Time: O(n), space: O(1).
+        """
         if not nums:
             return 0
 
