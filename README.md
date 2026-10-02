@@ -13,8 +13,12 @@ Currently: WGU Software Engineering student, shipping code every night and docum
 
 ## LeetCode progress
 
-Easy problems solved so far:
+### Easy (3 solved)
 
 - Two Sum — [`leetcode/easy/two_sum.py`](leetcode/easy/two_sum.py)
 - Merge Two Sorted Lists — [`leetcode/easy/MergeTwoSortedLists.py`](leetcode/easy/MergeTwoSortedLists.py)
 - Remove Duplicates from Sorted Array — [`leetcode/easy/removeDuplicatesFromSortedArray,.py`](leetcode/easy/removeDuplicatesFromSortedArray,.py)
+
+### Medium (0 solved)
+
+Not started yet — solutions will land in `leetcode/medium/` as I work through them.
