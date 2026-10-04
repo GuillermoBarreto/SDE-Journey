@@ -19,8 +19,10 @@
 # }
 # If all assertions pass, then your solution will be accepted.
 
+from typing import List
+
 class Solution:
-    def removeDuplicates(self, nums):
+    def removeDuplicates(self, nums: List[int]) -> int:
         """Remove duplicates from a sorted list in-place.
 
         Uses a two-pointer (read/write) scan; each unique element is
